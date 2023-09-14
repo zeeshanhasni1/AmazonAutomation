@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="MorningTimerTest">
+        <classes>
+            <class name="Tests.MorningTimerTest"/>
+        </classes>
+    </test>
+    <test name="NightTimerTest">
+        <classes>
+            <class name="Tests.NightTimerTest"/>
+        </classes>
+    </test>
+</suite>
